@@ -10,9 +10,6 @@ const Brief = Item.Brief
 const handleItemClick = ({id, history, from}) => {
   history.push('/detail/' + id + '/' + from)
 }
-const handClick = ()=>{
-  console.log(1);
-}
 
 const DataList = ({history, datalist, from}) => {
   // console.log(from)
